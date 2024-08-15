@@ -1,3 +1,2 @@
 echo "Hello, first time to see you"
 echo "add thing"
-echo "ok"
