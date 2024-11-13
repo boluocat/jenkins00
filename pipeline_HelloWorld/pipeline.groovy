@@ -21,6 +21,7 @@ pipeline {
         stage('Run Script') {
             script {
                 echo 'Running script'
+                cd pipeline_HelloWorld
                 G:\Python39\python.exe ./helloworld.py ${USER_NAME}
             }
         }
